@@ -1,4 +1,16 @@
 ## Estrutura
 
-- server.js
-- router.js
+### Crud de postagem
+
+ #### Atributos {
+     - Titulo
+     - Texto 
+     - Email
+ }
+
+ ### Métodos {
+     - Salvar
+     - Listar
+     - Deletar
+     - Atualizar
+ } 

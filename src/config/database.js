@@ -28,7 +28,9 @@ clientRedis.on("connect", (err) => {
     console.log("Redis conectado");
 })
 
+
+
 module.exports = {
     client,
-    clientRedis
+    clientRedis,
 };

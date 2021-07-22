@@ -1,10 +1,11 @@
 {
   "name": "miniprojeto-redis",
   "version": "1.0.0",
-  "description": "",
+  "description": "- server.js - router.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,19 @@
   "dependencies": {
     "dotenv": "10.0.0",
     "express": "4.17.1",
+    "mongodb": "^3.6.10",
     "node": "^16.3.0",
     "nodemon": "^2.0.4",
     "pg": "8.6.0",
     "redis": "^3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenniferSilva46/miniprojeto-backend-crud-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JenniferSilva46/miniprojeto-backend-crud-cache/issues"
+  },
+  "homepage": "https://github.com/JenniferSilva46/miniprojeto-backend-crud-cache#readme",
+  "devDependencies": {}
 }
