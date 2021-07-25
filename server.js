@@ -17,5 +17,7 @@ server.get('/users/:id', cache.getText);
 
 server.post('/blog', postMongo.createPost);
 server.get('/blog/:email', postMongo.getPost)
+server.put('/blog', postMongo.updatePost)
+server.delete('/blog/:title', postMongo.delPost)
 
 server.listen(port);

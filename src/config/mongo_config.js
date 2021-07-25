@@ -12,7 +12,7 @@ const clientMongo = new MongoClient(`mongodb://${process.env.MONGO_HOST}:${proce
 clientMongo.connect().then(() => {
     console.log("Mongodb conectado!")
 }).catch((err) => {
-    console.log('Erro')
+    console.log('Err')
 });
 
 module.exports = {

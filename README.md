@@ -11,6 +11,4 @@
  ### Métodos {
      - Salvar
      - Listar
-     - Deletar
-     - Atualizar
  } 
