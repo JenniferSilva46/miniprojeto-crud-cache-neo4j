@@ -1,4 +1,4 @@
-## CRUD COM NEO4J
+## CRUD USANDO NEO4J COM NODEJS
 
 ### funcionalidadeS
 - Seguir usuários;
